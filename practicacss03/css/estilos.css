@@ -1,7 +1,18 @@
 body{
 	font-size: 16px;
 	margin: 0px auto;
-	max-width: 2100px;
-	min-height: 2100px;
+	max-width: 1600px;
+	min-height: 1500px;
+}
+body header {
+
+}
+
+header input{
+	margin-top: 11px;
+	margin-right: 224px: 
+}
+header img{
+	margin-left:  222px;
 }
 
