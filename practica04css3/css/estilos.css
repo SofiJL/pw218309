@@ -1,0 +1,22 @@
+body{
+	font-size: 16px;
+	margin: 0px auto;
+	max-width:  1024;
+}
+
+header nav ul li{
+	display: inline-block;
+	font-size: 1.8em;
+	margin-right: 15px;
+	padding-bottom:  2px;
+}
+
+
+#seccion01{
+	border-bottom: 1px dashed green;
+}
+
+#logo_rojo{
+	position: relative;
+	right:  -200px;
+}
