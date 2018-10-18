@@ -51,7 +51,7 @@ header nav ul{
 
 }
 #seccion01 article img{
-	border: 5px solid rgba(150, 150, 150, 0.5)
+	border: 5px solid rgba(150, 150, 150, 0.5);
 }
 #seccion02 article{
 	display: inline-block;

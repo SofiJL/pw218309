@@ -1,22 +1,47 @@
 body{
 	font-size: 16px;
 	margin: 0px auto;
+	min-height: 1024;
 	max-width:  1024;
+	margin-left: 15px;
+	margin-top: 15px;
+
+}
+header{
+	border-bottom: 2px dashed green;
 }
 
+header nav ul{
+	border:5px solid rgba(150, 150, 150, 0.5);
+	width: 800px;
+
+}
 header nav ul li{
 	display: inline-block;
 	font-size: 1.8em;
-	margin-right: 15px;
-	padding-bottom:  2px;
+	margin-top: 20px;	
+	padding-bottom:  15px;
+	padding: 10px;
 }
 
 
-#seccion01{
-	border-bottom: 1px dashed green;
+#buy{
+	float: right;
 }
 
+#mundo{
+	float: right;
+}
 #logo_rojo{
-	position: relative;
-	right:  -200px;
+	float: right;
+}
+#bandera{
+	float: right;
+}
+
+#seccion01 {
+	border: 3px solid rgba(150, 150, 150, 0.5);
+}
+#seccion02 {
+	border: 3px solid rgba(150, 150, 150, 0.5);
 }
