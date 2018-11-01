@@ -3,22 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Calculadora</title>
-	<link rel="stylesheet" href="css/calculadora.css">
-	<script>
-		var colorAmarillo= function(){
-			operando1.style.background= "yellow";
-		}
-
-		var colorBlanco= function(){
-			operando1.style.background= "white";
-		}
-	</script>
+	<link rel="stylesheet" href="calculadora.css">
 </head>
 <body>
 	<table>
 		<tr>
 			<td colspan="4"> 
-				<input onfocus="colorAmarillo();" onfocusout="colorBlanco();" type="text" id="operando1" value="0">
+				<input type="text" id="operando1" value="0">
 			</td>
 		</tr>
 		<tr>
@@ -55,5 +46,7 @@
 			<td><button value="/" id="division">/</button></td>
 		</tr>
 	</table>
+		<script src="calculadora.js"></script>
+
 </body>
 </html>
