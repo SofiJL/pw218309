@@ -42,36 +42,50 @@ window.onload=function(){
 	}
 
 	var cero= document.getElementById("cero")
-	cero.addEventListener("click", numeros)
-
 	var uno= document.getElementById("uno")
-	uno.addEventListener("click", numeros)
-
 	var dos= document.getElementById("dos")
-	dos.addEventListener("click", numeros)
-
 	var tres= document.getElementById("tres")
-	tres.addEventListener("click", numeros)
-
 	var cuatro= document.getElementById("cuatro")
-	cuatro.addEventListener("click", numeros)
-
 	var cinco= document.getElementById("cinco")
-	cinco.addEventListener("click", numeros)
-
 	var seis= document.getElementById("seis")
-	seis.addEventListener("click", numeros)
-
 	var siete= document.getElementById("siete")
-	siete.addEventListener("click", numeros)
-
 	var ocho= document.getElementById("ocho")
-	ocho.addEventListener("click", numeros)
-
 	var nueve= document.getElementById("nueve")
+	
+	cero.addEventListener("click", numeros)
+	uno.addEventListener("click", numeros)
+	dos.addEventListener("click", numeros)
+	tres.addEventListener("click", numeros)
+	cuatro.addEventListener("click", numeros)
+	cinco.addEventListener("click", numeros)
+	seis.addEventListener("click", numeros)
+	siete.addEventListener("click", numeros)
+	ocho.addEventListener("click", numeros)
 	nueve.addEventListener("click", numeros)
 
+	suma.addEventListener("click", operadores)
+	resta.addEventListener("click", operadores)
+	multiplicacion.addEventListener("click", operadores)
+	division.addEventListener("click", operadores)
+	igual.addEventListener("click", resultadoigual)
 
+	var operadores=function(){
+		operador =this.value
 
+	}
+
+	var resultadoigual = function(){
+		operando1= document.getElementById('operando1').value
+		operando2= document.getElementById('operando2').value
+		document.getElementById('resultado').value=eval(operando1+operador+operando2);
+	}
+
+	var reinicio = function(){
+		document.getElementById('operando1').value=0
+		document.getElementById('operando2').value=0
+		document.getElementById('resultado').value=0
+		operador= ""
+
+	}
 }
 }
