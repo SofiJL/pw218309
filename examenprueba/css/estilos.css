@@ -1,0 +1,37 @@
+body{
+	border: 3px solid green;
+	font-size: 16px; /*1em*/
+	margin: 0px auto;
+	max-width: 1178px;
+	min-height: 1078px;
+}
+header{
+	background:  #3a3a3a;
+	border: 3px solid yellow;
+	color: white;
+	height: 55px;
+}
+
+header span{
+	border: 1px solid yellow;
+	margin: 
+}
+
+header input{
+	border: 1px solid green;
+}
+
+
+#secc1{
+	background: #e62c85;
+}
+
+#secc1art1{
+	border: 2px solid blue;
+	height: 55px;
+	width: 31%;
+}
+#secc1art2{
+	height: 55px;
+	width: 31%;
+}
