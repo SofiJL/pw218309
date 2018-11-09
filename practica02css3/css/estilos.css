@@ -11,7 +11,7 @@ header input{
 	margin-right: -235px;
 	margin-top: 15px;
 	position: relative;
-}
+} 
 
 header nav{
 	margin-left: 220px;
@@ -20,7 +20,6 @@ header nav{
 
 header nav ul li{
 	border-bottom: 1px solid gray;
-	border-bottom-color: grey;
 	color: gray;
 	display: inline-block;
 	font-size: 1.8em;
@@ -107,9 +106,6 @@ header nav ul li{
 }
 .letramediana{
 	font-size: 2em;
-}
-.letrachica{
-
 }
 .nito{
 	font-weight: bold;
