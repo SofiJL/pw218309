@@ -1,0 +1,102 @@
+body{
+	font-size: 16px;
+	margin: 0px auto;
+	max-width: 1500px;
+	min-height: 1000px;
+	border-top: 5px solid black;
+
+}
+header{
+	margin-top: 15px;
+	padding-bottom: 25px;
+	text-align: top;
+	vertical-align: top;
+	border-bottom: 3px solid black;
+
+}
+
+header img{
+	bottom: 20px;
+
+}
+
+#shop{
+	padding-left: 15px; 
+}
+#lupa{
+	padding-left: 15px; 
+}
+#NORTHERNISM{
+	padding-left: 450px;
+}
+#eurcart{
+	padding-left: 500px;
+}
+#seccion01{
+	height: 900px;
+
+
+}
+#seccion01 article{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#indigo{
+	left: 70px;
+	position: relative;
+	top: 250px;
+	
+}
+
+#secc01art01{
+	width: 70%;
+	border-right: 3px solid black;
+
+}
+
+#secc01art01 img{
+	padding-top: 25px; 
+	padding-left: 150px;
+}
+
+#posted{
+	padding-top: 25px; 
+	padding-left: 150px;
+}
+
+#texto{
+	position: relative;
+	top: 25px; 
+	left: 250px;
+	
+}
+
+
+#secc01art02{
+	width: 23%;
+	padding-left: 50px;
+	padding-top: 50px;
+
+}
+#secc01art02 article{
+
+}
+
+#persona{
+	padding-top: 50px;
+}
+
+
+.colorgris{
+	color: #a3a3a3;
+}
+.letragrande{
+	font-size: 3em; /* 3.5x16 */
+}
+.letramediana{
+	font-size: 1.5em;
+}
+.nito{
+	font-weight: bold;
+}
